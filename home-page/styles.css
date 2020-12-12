@@ -1,0 +1,150 @@
+@font-face {
+  font-family: google;
+  src: url(product-sans-for-project/Product\ Sans\ Regular.ttf);
+}
+body {
+  font-family: google;
+  font-size: 14px;
+  font-weight: 300;
+}
+* {
+  text-decoration: none;
+  color: rgb(65, 65, 65);
+}
+
+/* Nav Bar */
+.nav-container {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+}
+.about-store {
+  flex-basis: 50%;
+  word-spacing: 15px;
+}
+.gmail-images-apps-profile {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
+}
+.gmail-images-apps-profile .icon {
+  height: 15px;
+  width: 15px;
+}
+.gmail-images-apps-profile .profile {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  align-items: center;
+}
+
+/* Body */
+.body-container {
+  height: 88vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -130px;
+}
+.logo {
+  margin-bottom: 8px;
+  display: flex;
+}
+.g-1 {
+  color: rgb(40, 126, 255);
+  font-size: 5.625rem;
+}
+.o-1 {
+  color: rgb(255, 63, 63);
+  font-size: 5.625rem;
+}
+.o-2 {
+  color: rgb(255, 188, 63);
+  font-size: 5.625rem;
+}
+.g-2 {
+  color: rgba(40, 126, 255);
+  font-size: 5.625rem;
+}
+.l {
+  color: rgb(2, 158, 2);
+  font-size: 5.625rem;
+}
+.e {
+  color: rgb(255, 63, 63);
+  font-size: 5.625rem;
+}
+
+/* Search Bar */
+.search-bar {
+  border: 1px solid black;
+  max-width: 500px;
+  width: 100%;
+  height: 42px;
+  border-radius: 30px;
+  padding: 0 5px;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+input {
+  border: 0;
+  margin: auto;
+  width: 80%;
+  height: 30px;
+}
+.mag-glass {
+  height: 14px;
+  width: 14px;
+  position: relative;
+  top: 35%;
+  left: 10px;
+}
+.microphone {
+  height: 15px;
+  width: 10px;
+  position: relative;
+  top: 35%;
+  right: 10px;
+}
+
+.search {
+  border: 1px solid transparent;
+  padding: 10px;
+  margin-right: 3px;
+  border-radius: 5px;
+}
+.lucky {
+  border: 1px solid transparent;
+  padding: 10px;
+  margin-left: 3px;
+  border-radius: 5px;
+}
+.btn {
+  background-color: rgba(211, 211, 211, 0.22);
+}
+
+/* Footer */
+.footer {
+  height: 30px;
+  background-color: rgba(211, 211, 211, 0.22);
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+.footer-left {
+  flex-basis: 50%;
+  word-spacing: 15px;
+}
+.footer-left a:last-child {
+  word-spacing: 0;
+}
+.footer-right {
+  flex-basis: 50%;
+  text-align: right;
+  word-spacing: 15px;
+}
